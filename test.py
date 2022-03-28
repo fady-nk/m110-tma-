@@ -4,6 +4,7 @@ def salary():
     sum=0
     while i < 12:
           x = eval(input("Enter the sales for " +  month_list[i]+": " ))
+            #create list and save x value in it to use it for highest salary and lowest 
           i += 1
           sum = sum + x
     print(sum)   
